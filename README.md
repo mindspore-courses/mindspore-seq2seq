@@ -75,11 +75,11 @@ python -m spacy download de_core_news_sm-3.7.0 --direct
 
 ### BibTeX
 
-@misc{mindsporeseq2seq,
-  title={MindSpore Seq2Seq},
-  year={2024},
-  author={umeiko},
-  publisher={GitHub},
-  journal={GitHub repository},
-  howpublished ={\url{https://github.com/umeiko/mindspore-seq2seq}}
-}
+    @misc{mindsporeseq2seq,
+      title={MindSpore Seq2Seq},
+      year={2024},
+      author={umeiko},
+      publisher={GitHub},
+      journal={GitHub repository},
+      howpublished ={\url{https://github.com/umeiko/mindspore-seq2seq}}
+    }
