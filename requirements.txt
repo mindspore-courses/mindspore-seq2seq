@@ -1,5 +1,6 @@
-mindspore = 2.1.1
+mindspore
 evaluate
+datasets
 matplotlib
 spacy
 ipywidgets
