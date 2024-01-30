@@ -1,6 +1,6 @@
 # MindSpore Seq2Seq
 
-## 注意，本教程基于MindSpore 2.1.1 (1~4章节) 与 MindSpore 2.2.10 (5~6章节) 完成，请使用对应版本的MindSpore。
+## 注意，本教程基于MindSpore 2.1.1 (1到4章节) 与 MindSpore 2.2.10 (5到6章节) 完成，请使用对应版本的MindSpore。
 
 
 这个存储库包含使用 [MindSpore](https://www.mindspore.cn/) 2.2.10 和 [spaCy](https://spacy.io/) 3.0 以及 Python 3.7.5 实现序列到序列（seq2seq）模型的教程，该教程能够使您更好地利用hugging face社区中的数据集与评估方法与MindSpore结合使用。
