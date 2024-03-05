@@ -67,7 +67,8 @@ python -m spacy download de_core_news_sm-3.7.0 --direct
 - https://www.analyticsvidhya.com/blog/2019/06/understanding-transformers-nlp-state-of-the-art-models/
 
 ## 已知问题
-- 1~4章节 需要Mindspore-2.1.1以上版本才能够正确运行，这是由于截至编写时 (2024-1-20) 的2.2相关版本`Mindspore-2.2.10`中GRU相关算子无法正确使用，详见[这里](https://gitee.com/mindspore/mindspore/issues/I8VSVM)。 
+- 1~4章节 需要Mindspore-2.1.1以下版本才能够正确运行，这是由于截至编写时 (2024-1-20) 的2.2相关版本`Mindspore-2.2.10`中GRU相关算子无法正确使用，详见[这里](https://gitee.com/mindspore/mindspore/issues/I8VSVM)。
+    - 2024.02.28, 问题已在Mindspore-2.3修复。
 - 截至编写时(2024-1-20), Mindspore中的`ops.clip_by_norm(grads, max_norm=clip)`函数因为某些原因运行存在问题，所以笔记中相应的部分进行了注释，您可以尝试解除注释观察该部分是否在未来的更新中得到了正确的修复。
 - 第五章需要Mindspore-2.2.10以上版本才能够正确运行，这可能是由于Mindspore的某些版本内部view导致梯度丢失引起的，详见[这里](https://gitee.com/mindspore/mindspore/issues/I8WIB4)。 
 
